@@ -28,7 +28,7 @@ async fn main() {
         query = search_query.trim()
     );
 
-    let api_key = "Bearer TOKEN_KEY";
+    let api_key = "Bearer PUT_TOKEN_KEY_HERE"; // Replace with your Spotify Token
     let client = reqwest::Client::new();
 
     let mut headers = HeaderMap::new();
